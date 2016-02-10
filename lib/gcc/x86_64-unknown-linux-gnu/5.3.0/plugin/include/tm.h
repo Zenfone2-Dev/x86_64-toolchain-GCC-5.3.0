@@ -34,6 +34,7 @@
 # include "config/linux-android.h"
 # include "config/i386/linux-common.h"
 # include "config/i386/linux64.h"
+# include "config/i386/ssemath.h"
 # include "config/initfini-array.h"
 #endif
 #if defined IN_GCC && !defined GENERATOR_FILE && !defined USED_FOR_TARGET

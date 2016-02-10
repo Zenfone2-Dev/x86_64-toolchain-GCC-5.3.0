@@ -1,0 +1,10 @@
+#!/bin/bash
+clear
+echo "Setting up toolchain for use"
+cd libexec/gcc/x86_64-unknown-linux-gnu/5.3.0
+unzip cc1
+unzip cc1plus
+unzip lto1
+rm cc1.zip cc1plus.zip lto1.zip
+echo "all done"
+echo "set path to the toolchain and enjoy"

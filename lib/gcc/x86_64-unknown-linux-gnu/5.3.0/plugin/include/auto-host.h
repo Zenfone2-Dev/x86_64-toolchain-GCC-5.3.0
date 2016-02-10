@@ -1035,7 +1035,7 @@
 
 /* Define to 1 if you have the <ext/hash_map> header file. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_EXT_HASH_MAP */
+#define HAVE_EXT_HASH_MAP 1
 #endif
 
 
@@ -1925,7 +1925,7 @@
 
 /* Define to PREFIX/include if cpp should also search that directory. */
 #ifndef USED_FOR_TARGET
-#define PREFIX_INCLUDE_DIR "/home/sayeed/toolchain/sayeed/include"
+#define PREFIX_INCLUDE_DIR "/home/sayeed/toolchain/sayeed99/x86_64-gcc5.3.0/include"
 #endif
 
 

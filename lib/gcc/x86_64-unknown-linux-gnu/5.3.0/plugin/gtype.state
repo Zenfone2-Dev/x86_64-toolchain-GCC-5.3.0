@@ -7,7 +7,7 @@
 (!version  "5.3.0")
 (!srcdir  "../../gcc-5.3.0/gcc")
 (!languages 10 ada c cp fortran go java jit lto objc objcp)
-(!fileslist 203
+(!fileslist 204
  (!srcfile 1023  "../libcpp/include/line-map.h")
  (!srcfile 1023  "../libcpp/include/cpplib.h")
  (!srcfile 1023  "../libcpp/include/cpp-id-data.h")
@@ -32,6 +32,7 @@
  (!srcfile 1023  "config/linux-android.h")
  (!srcfile 1023  "config/i386/linux-common.h")
  (!srcfile 1023  "config/i386/linux64.h")
+ (!srcfile 1023  "config/i386/ssemath.h")
  (!srcfile 1023  "config/initfini-array.h")
  (!srcfile 1023  "defaults.h")
  (!srcfile 1023  "../include/hashtab.h")

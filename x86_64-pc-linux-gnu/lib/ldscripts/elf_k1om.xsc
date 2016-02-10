@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf64-k1om", "elf64-k1om",
 	      "elf64-k1om")
 OUTPUT_ARCH(k1om)
 ENTRY(_start)
-SEARCH_DIR("/home/sayeed/toolchain/sayeed/x86_64-pc-linux-gnu/lib"); SEARCH_DIR("/home/sayeed/toolchain/sayeed/lib"); SEARCH_DIR("/usr/local/lib"); SEARCH_DIR("/lib"); SEARCH_DIR("/usr/lib");
+SEARCH_DIR("/home/sayeed/toolchain/sayeed99/x86_64-gcc5.3.0/x86_64-pc-linux-gnu/lib"); SEARCH_DIR("/home/sayeed/toolchain/sayeed99/x86_64-gcc5.3.0/lib"); SEARCH_DIR("/usr/local/lib"); SEARCH_DIR("/lib"); SEARCH_DIR("/usr/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */

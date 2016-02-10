@@ -6,7 +6,7 @@
 OUTPUT_FORMAT("a.out-i386-linux", "a.out-i386-linux",
 	      "a.out-i386-linux")
 OUTPUT_ARCH(i386)
-SEARCH_DIR("/home/sayeed/toolchain/sayeed/i386-pc-linux-gnuaout/lib");
+SEARCH_DIR("/home/sayeed/toolchain/sayeed99/x86_64-gcc5.3.0/i386-pc-linux-gnuaout/lib");
 PROVIDE (__stack = 0);
 SECTIONS
 {
